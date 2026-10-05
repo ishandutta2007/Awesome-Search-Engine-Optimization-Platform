@@ -1,235 +1,117 @@
-# Awesome-Search-Engine-Optimization-Platform
-
-## Top Search Engine Optimization (SEO) Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Technical SEO Auditing, Rank Tracking & Content Optimization*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial SEO platforms** and **open-source projects** that help marketers, developers, and site owners improve search visibility. These tools cover technical crawling, keyword research, backlink analysis, rank tracking, and content optimization.
-
-
-
-**Examples** include Google Search Console, Bing Webmaster Tools, Ahrefs, Semrush, Moz Pro, BrightEdge, Conductor, SE Ranking, Screaming Frog, and SpyFu (the category leaders).
-
-
-
-**Open-source emphasis**: SEO is a domain where open-source tools provide genuine production alternatives. **Screaming Frog** is the commercial standard for crawling, but **Screaming Frog SEO Spider** is free for 500 URLs, while **Crawlee**, **Lighthouse**, and **SEOBot** provide open-source crawling, auditing, and automation. **Serposcope** and **RankWatch** cover open-source rank tracking. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Google Search Console](https://search.google.com/search-console/)**  
-
-  **The essential free tool** for monitoring Google Search performance, indexing status, and Core Web Vitals. **The authoritative source** for how Google sees your site — no other tool has this data . Requires site ownership verification.
-
-
-
-- **[Bing Webmaster Tools](https://www.bing.com/webmasters)**  
-
-  Microsoft's free webmaster tool for Bing Search performance, sitemap submission, and SEO recommendations. **Essential for sites targeting Bing/DuckDuckGo traffic** (which uses Bing's index).
-
-
-
-- **[Ahrefs](https://ahrefs.com/)**  
-
-  **The leading backlink analysis platform** with the most comprehensive link index. Features Site Explorer, Keywords Explorer, Rank Tracker, and Site Audit. **Starting at $129/month** — the premium choice for competitive SEO.
-
-
-
-- **[Semrush](https://www.semrush.com/)**  
-
-  **The most comprehensive all-in-one SEO suite** covering keyword research, backlinks, PPC, content, and competitive analysis. **Starting at $139.95/month** — the enterprise standard.
-
-
-
-- **[Moz Pro](https://moz.com/products/pro)**  
-
-  SEO platform with **Domain Authority** (industry-standard metric), link explorer, and keyword research. **Starting at $99/month** — the most accessible paid tier.
-
-
-
-- **[Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)**  
-
-  **The industry-standard desktop crawler** for technical SEO audits. **Free for up to 500 URLs**; £199/year for unlimited crawling . **The most widely used technical SEO tool** — essential for site audits, broken links, redirect chains, and duplicate content.
-
-
-
-- **[BrightEdge](https://www.brightedge.com/)**  
-
-  Enterprise SEO platform with content optimization, competitive intelligence, and AI-powered recommendations.
-
-
-
-- **[Conductor](https://www.conductor.com/)**  
-
-  Enterprise SEO and content intelligence platform with workflow automation.
-
-
-
-- **[SE Ranking](https://seranking.com/)**  
-
-  All-in-one SEO platform with rank tracking, competitor analysis, and white-label reporting. **Starting at $55/month** — the best value for agencies.
-
-
-
-- **[SpyFu](https://www.spyfu.com/)**  
-
-  Competitor research tool for keywords, PPC, and backlinks. **Starting at $39/month** — the budget-friendly alternative.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Crawlee](https://github.com/apify/crawlee)**  
-
-  **The leading open-source web scraping and crawling library**, Apache-2.0 licensed with 18,000+ GitHub stars . **Node.js/TypeScript and Python** versions available . Features **auto-scaling, proxy rotation, browser fingerprinting, and headless Chrome** . **The foundation for building custom SEO crawlers** — used by Apify, and suitable for large-scale technical audits . **Best for developers building custom SEO crawling workflows** .
-
-
-
-- **[Lighthouse](https://github.com/GoogleChrome/lighthouse)**  
-
-  **Google's open-source automated auditing tool**, Apache-2.0 licensed with 30,000+ GitHub stars . **Audits performance, accessibility, SEO, and PWA compliance** . Runs in Chrome DevTools, CLI, or CI/CD pipelines . **The standard for Core Web Vitals measurement** — directly correlates with Google's ranking signals . **Best for technical SEO performance audits** .
-
-
-
-- **[SEOBot](https://github.com/marcelo-earth/seobot)**  
-
-  **Open-source SEO automation platform for content generation and publishing**, AGPL-3.0 licensed . **AI-powered article generation** with automatic internal linking, image generation, and publishing to WordPress, Ghost, and other platforms . **Self-hostable with Docker** . **Best for automating programmatic SEO content** — though quality requires human review.
-
-
-
-- **[Serposcope](https://github.com/serphacker/serposcope)**  
-
-  **Free and open-source rank tracker** — monitor Google rankings for keywords and websites . **Self-hosted with web interface** . Features **daily rank tracking, competitor monitoring, and email alerts** . **The leading open-source alternative to commercial rank trackers** . **Best for agencies and site owners wanting self-hosted rank tracking** .
-
-
-
-- **[SEO Panel](https://github.com/seopanel/Seo-Panel)**  
-
-  **Open-source SEO control panel for agencies** — manage multiple websites, track rankings, and generate reports . **PHP-based with MySQL** . Features **rank tracking, competitor analysis, and white-label reporting** . **Best for agencies wanting a self-hosted client dashboard** .
-
-
-
-- **[Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)**  
-
-  **Automated Lighthouse audits in CI/CD** — catch performance regressions before deployment . **The standard for performance budgets** in modern development workflows .
-
-
-
-- **[Sitemap Generator](https://github.com/oxffaa/gopher-parse-sitemap)**  
-
-  **Open-source sitemap generation tools** — various implementations in Go, Python, and Node.js . **Best for automating sitemap creation** in custom build pipelines.
-
-
-
-- **[Screaming Frog Alternative (Python)](https://github.com/search?q=screaming+frog+alternative&type=repositories)**  
-
-  Various open-source crawlers mimicking Screaming Frog functionality — **custom Python crawlers with SEO audit capabilities** . **Best for teams wanting Screaming Frog functionality without licensing costs** — though fewer features.
-
-
-
-- **[Redirect Checker](https://github.com/search?q=redirect+checker+seo&type=repositories)**  
-
-  Open-source tools for **auditing redirect chains and HTTP status codes** — essential for technical SEO .
-
-
-
-- **[Schema Markup Validator](https://github.com/search?q=schema+markup+validator&type=repositories)**  
-
-  Open-source tools for **validating structured data** (JSON-LD, Microdata, RDFa) — essential for rich results .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Sitebulb (not open-source)** — Commercial technical SEO crawler with excellent visualizations. **Not open-source** but highly regarded .
-
-- **Botify (not open-source)** — Enterprise SEO crawling platform. **Not open-source** .
-
-- **DeepCrawl (not open-source)** — Enterprise technical SEO platform. **Not open-source** .
-
-- **SEO Analyzer (various)** — Open-source Python/Node.js tools for basic on-page SEO analysis.
-
-- **Keyword Research Tools** — Open-source alternatives exist but lack the index depth of Ahrefs/Semrush.
-
-- **OpenSEO** — Open-source SEO analysis tool with basic auditing capabilities.
-
-
-
-**Frameworks for building custom SEO solutions**: Combine **Crawlee** for custom crawling at scale , **Lighthouse** for performance audits , and **Serposcope** or **SEO Panel** for rank tracking . Use **Google Search Console** and **Bing Webmaster Tools** as free authoritative data sources . **SEOBot** for programmatic content automation (with human review) . For technical audits, **Screaming Frog** (free tier) remains the standard — open-source alternatives lack its feature depth. Note that **backlink analysis at Ahrefs/Semrush scale** has no open-source equivalent — their indexes are proprietary and expensive to replicate. Open-source SEO stacks provide strong crawling, auditing, and rank tracking foundations that require integration for complete SEO workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SEO platforms crawl websites and may collect competitive intelligence. **Respect robots.txt and terms of service** when crawling third-party sites.
-
-- **Open-source SEO tools lack the index depth of commercial platforms** — Ahrefs and Semrush maintain proprietary backlink and keyword indexes that cannot be replicated with open-source tools . Use open-source for technical crawling, performance auditing, and rank tracking; use commercial for backlink and keyword research.
-
-- **Google Search Console is essential** — no open-source tool can replace its authoritative data on how Google sees your site . Always verify ownership and use it as your primary data source.
-
-- **Screaming Frog free tier limits to 500 URLs** — for larger sites, the £199/year license is often cheaper than building and maintaining a custom crawler .
-
-- The open-source ecosystem provides strong crawling, auditing, and rank tracking foundations, but **backlink analysis, keyword research, and enterprise SEO platforms** remain primarily commercial offerings.
-
-
+# Awesome Search Engine Optimization (SEO) Platforms 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Search Engine Optimization Platform Banner" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Search-Engine-Optimization-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Search-Engine-Optimization-Platform?style=flat-square" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Search-Engine-Optimization-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Search-Engine-Optimization-Platform?style=flat-square" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Search-Engine-Optimization-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Overview
 
+A curated list of **top SaaS platforms** and **open-source GitHub projects** for Search Engine Optimization (SEO), technical site auditing, rank tracking, backlink analysis, and content optimization.
 
-**Made for SEO professionals, content marketers, and web developers.**  
+Whether you are looking for enterprise commercial software like Semrush and Ahrefs or powerful self-hosted open-source crawlers like Crawlee and Google Lighthouse, this directory covers the best tools available for marketers, developers, and webmasters.
 
-Let's make search engine optimization more open, transparent, and accessible.
+---
+
+## 📊 Market Size & Structure
+
+> 💡 **Market Insights**: The global Search Engine Optimization (SEO) software market size is estimated at **$7.5 Billion to $10 Billion**, growing at a CAGR of 14.2%. The market is **moderately fragmented**: enterprise analytics and proprietary backlink/keyword indexes are concentrated among a few dominant SaaS market leaders (Semrush, Ahrefs, Moz, BrightEdge), while technical site crawling, performance auditing, and rank tracking feature a vibrant, highly fragmented ecosystem of open-source tools and specialized software.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+Below is a breakdown of top commercial SEO software platforms sorted by company size (valuation / revenue):
+
+| Company / Product | Size (Valuation / Revenue) 💰 | Starting Price 💳 | Free Tier / Trial Limits 🎁 | Key Features & Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Search Console](https://search.google.com/search-console/)** 🛠️ | **$2.0+ Trillion** (Parent: Alphabet) | Free ($0/mo) | **100% Free Forever** (Unlimited usage; standard API quotas apply) | Official Google performance dashboard, indexing control, Core Web Vitals |
+| **[Bing Webmaster Tools](https://www.bing.com/webmasters)** 🌐 | **$3.0+ Trillion** (Parent: Microsoft) | Free ($0/mo) | **100% Free Forever** (Unlimited usage; standard indexing quotas apply) | Search performance reports, sitemap submissions & SEO diagnostics for Bing |
+| **[Semrush](https://www.semrush.com/)** ⚡ | **$1.9 Billion** Valuation ($456M ARR) | $139.95/mo | **7-Day Free Trial** (Pro / Guru plans) | Comprehensive all-in-one SEO suite, competitor intelligence, PPC & backlinks |
+| **[Ahrefs](https://ahrefs.com/)** 🎯 | **$150 Million ARR** (Bootstrapped) | $129.00/mo (or $29/mo Starter) | **Ahrefs Webmaster Tools Free** (5,000 crawl credits/mo for verified sites; No paid trial) | Industry-leading backlink index, Site Explorer & Keyword Explorer |
+| **[BrightEdge](https://www.brightedge.com/)** 🏢 | **$100+ Million ARR** (Private) | Custom Enterprise Quote (~$1,000+/mo) | **No Free Trial** (Demo on request) | Enterprise SEO platform with AI content recommendations & share of voice |
+| **[Conductor](https://www.conductor.com/)** 🚀 | **$210+ Million Total Funding** (Private) | Custom Enterprise Quote (~$3,000+/mo) | **No Free Trial** (Demo on request) | Enterprise content intelligence, organic marketing workflow automation |
+| **[Moz Pro](https://moz.com/products/pro)** 📈 | **$50+ Million ARR** (Private) | $99.00/mo (or $49/mo Starter) | **7-Day Free Trial** (Medium Plan access) | Domain Authority (DA) creator, Rank tracking, link explorer & site audits |
+| **[SE Ranking](https://seranking.com/)** 📊 | **$30+ Million Revenue** (Private) | $103.20/mo (Core plan) | **14-Day Free Trial** (No credit card required) | All-in-one SEO suite, white-label reporting & rank tracking for agencies |
+| **[SpyFu](https://www.spyfu.com/)** 🔍 | **$15+ Million Revenue** (Private) | $39.00/mo (or $29/mo annual) | **Free Forever Version** (Limited search results) | Competitor keyword research, PPC ad history & domain domain analysis |
+| **[Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)** 🐸 | **$10+ Million Revenue** (Private) | $279.00/year (£199/yr) | **Free Plan Available** (Capped at 500 URLs per crawl) | Industry-standard desktop crawler for technical SEO site audits |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore open-source alternatives and libraries for web crawling, performance measurement, automated SEO auditing, and rank tracking. Projects are sorted by GitHub Star Count (descending):
+
+| Repository 📦 | Stars ⭐ | Primary Stack 🛠️ | Description & Use Case 📝 |
+| :--- | :--- | :--- | :--- |
+| **[puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)** 🌐 | [![Star Badge](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) | Node.js / JavaScript | Headless Chrome Node.js API for automated web scraping & dynamic rendering SEO audits |
+| **[scrapy/scrapy](https://github.com/scrapy/scrapy)** 🕷️ | [![Star Badge](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers) | Python | Fast high-level web crawling & scraping framework for enterprise site audits |
+| **[GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse)** ⚡ | [![Star Badge](https://img.shields.io/github/stars/GoogleChrome/lighthouse?style=social&color=white)](https://github.com/GoogleChrome/lighthouse/stargazers) | JavaScript / Node.js | Google's official automated auditing tool for performance, Core Web Vitals & SEO |
+| **[apify/crawlee](https://github.com/apify/crawlee)** 🤖 | [![Star Badge](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers) | Node.js / TypeScript / Python | Scalable web scraping & browser automation library with proxy rotation for custom crawlers |
+| **[GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)** 🔄 | [![Star Badge](https://img.shields.io/github/stars/GoogleChrome/lighthouse-ci?style=social&color=white)](https://github.com/GoogleChrome/lighthouse-ci/stargazers) | JavaScript / Node.js | Continuous Integration wrapper for Lighthouse to track performance budgets & SEO regressions |
+| **[sethblack/python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer)** 🐍 | [![Star Badge](https://img.shields.io/github/stars/sethblack/python-seo-analyzer?style=social&color=white)](https://github.com/sethblack/python-seo-analyzer/stargazers) | Python | Python SEO tool that crawls a site and analyzes structure, broken links & HTML tags |
+| **[serphacker/serposcope](https://github.com/serphacker/serposcope)** 📈 | [![Star Badge](https://img.shields.io/github/stars/serphacker/serposcope?style=social&color=white)](https://github.com/serphacker/serposcope/stargazers) | Java | Open-source rank tracker to monitor Google website rankings and keyword performance |
+| **[seopanel/Seo-Panel](https://github.com/seopanel/Seo-Panel)** 🖥️ | [![Star Badge](https://img.shields.io/github/stars/seopanel/Seo-Panel?style=social&color=white)](https://github.com/seopanel/Seo-Panel/stargazers) | PHP / MySQL | Open-source SEO control panel for agencies managing multiple client sites & rank tracking |
+| **[oxffaa/gopher-parse-sitemap](https://github.com/oxffaa/gopher-parse-sitemap)** 🗺️ | [![Star Badge](https://img.shields.io/github/stars/oxffaa/gopher-parse-sitemap?style=social&color=white)](https://github.com/oxffaa/gopher-parse-sitemap/stargazers) | Go | Lightweight and fast Go library for memory-efficient XML sitemap parsing |
+| **[MarsX-dev/seobot](https://github.com/MarsX-dev/seobot)** 🤖 | [![Star Badge](https://img.shields.io/github/stars/MarsX-dev/seobot?style=social&color=white)](https://github.com/MarsX-dev/seobot/stargazers) | TypeScript | Open-source AI content generation & programmatic SEO publishing bot |
+
+---
+
+## 🛠️ Additional Categories & Utilities
+
+- **Schema Markup Validators**: Check structured data compliance (JSON-LD, Microdata) via Schema.org tools.
+- **Redirect Chain Checkers**: Audit HTTP status codes (301, 302, 404) across site migrations.
+- **Sitemap Generators**: Automate XML sitemap compilation within CI/CD pipelines.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork the repository 🍴
+2. Create a new branch for your feature or tool addition
+3. Add your entry to `README.md` maintaining table formatting
+4. Submit a Pull Request (PR) with a brief description 🚀
+
+---
+
+## 💖 Support & Sponsoring
+
+If you find this repository useful, please consider supporting the project:
+
+- ⭐ **Star this repository** to show your appreciation.
+- 🍴 **Fork it** to contribute or customize your own list.
+- 📢 **Share it** with fellow developers, SEO specialists, and digital marketers.
+
+☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance and curation on GitHub Sponsors:  
+👉 **[Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)** ❤️
+
+---
+
+## 📜 Disclaimer
+
+- This repository is a community-curated collection.
+- Always respect `robots.txt` and terms of service when running custom web crawlers.
+- Open-source tools provide great crawling and auditing foundations, but commercial platforms (Ahrefs, Semrush) hold proprietary backlink databases that cannot be easily replicated open-source.
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Search-Engine-Optimization-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Search-Engine-Optimization-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Made with ❤️ for SEO professionals, web developers, and digital marketers worldwide.
+</p>
