@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .title {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 46px;
+        font-weight: 900;
+        fill: url(#text-grad);
+        letter-spacing: -0.5px;
+      }
+      .subtitle {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        fill: #38bdf8;
+      }
+      .grid-line {
+        stroke: #334155;
+        stroke-width: 1;
+        opacity: 0.25;
+      }
+      .wave-line {
+        fill: none;
+        stroke: #6366f1;
+        stroke-width: 2.5;
+        opacity: 0.4;
+      }
+      
+      /* Dynamic SVG Animations */
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(2deg); }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-2deg); }
+      }
+      @keyframes pulse-glow {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.7; }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -100; }
+      }
+
+      .animated-bg-1 { animation: float1 8s ease-in-out infinite; }
+      .animated-bg-2 { animation: float2 9s ease-in-out infinite; }
+      .pulsing-orb { animation: pulse-glow 4s ease-in-out infinite; }
+      .flowing-line { stroke-dasharray: 10 15; animation: dash 20s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Background Grid Lines -->
+  <g>
+    <line x1="100" y1="0" x2="100" y2="300" class="grid-line"/>
+    <line x1="300" y1="0" x2="300" y2="300" class="grid-line"/>
+    <line x1="500" y1="0" x2="500" y2="300" class="grid-line"/>
+    <line x1="700" y1="0" x2="700" y2="300" class="grid-line"/>
+    <line x1="900" y1="0" x2="900" y2="300" class="grid-line"/>
+    <line x1="1100" y1="0" x2="1100" y2="300" class="grid-line"/>
+    <line x1="0" y1="75" x2="1200" y2="75" class="grid-line"/>
+    <line x1="0" y1="150" x2="1200" y2="150" class="grid-line"/>
+    <line x1="0" y1="225" x2="1200" y2="225" class="grid-line"/>
+  </g>
+
+  <!-- Dynamic Animated Glowing Orbs (Behind Text) -->
+  <circle cx="150" cy="80" r="140" fill="#818cf8" class="pulsing-orb" filter="blur(60px)"/>
+  <circle cx="1050" cy="220" r="160" fill="#c084fc" class="pulsing-orb" filter="blur(70px)"/>
+
+  <!-- Dynamic Abstract Graphic Elements (Positioned in Background / Right Side) -->
+  <g class="animated-bg-1" opacity="0.35">
+    <path d="M750,220 Q850,120 950,240 T1150,150" class="wave-line flowing-line" stroke="#38bdf8" stroke-width="3"/>
+    <path d="M700,180 Q820,280 960,160 T1180,210" class="wave-line flowing-line" stroke="#a855f7" stroke-width="2"/>
+    <!-- Analytics / SEO Chart Lines -->
+    <polyline points="800,240 860,190 920,210 980,130 1040,160 1100,90" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="6 6"/>
+    <circle cx="1100" cy="90" r="6" fill="#22d3ee" filter="url(#glow)"/>
+  </g>
+
+  <g class="animated-bg-2" opacity="0.25">
+    <rect x="850" y="50" width="120" height="80" rx="10" fill="url(#accent-glow)" stroke="#818cf8" stroke-width="1.5"/>
+    <rect x="990" y="140" width="140" height="90" rx="10" fill="url(#accent-glow)" stroke="#c084fc" stroke-width="1.5"/>
+  </g>
+
+  <!-- FOREGROUND CONTENT (Guaranteed Visibility & Readability) -->
+  <g transform="translate(60, 0)">
+    <!-- Top Pill/Badge -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="220" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="110" y="21" text-anchor="middle" class="badge-text">⚡ CURATED ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="135" class="title" filter="url(#glow)">Awesome SEO Platforms</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="180" class="subtitle">Top SaaS &amp; Open-Source Tools for Technical Audits, Rank Tracking &amp; Crawling</text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="140" height="28" rx="6" fill="#334155" opacity="0.6"/>
+      <text x="70" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🔍 Technical Audits</text>
+
+      <rect x="150" y="0" width="140" height="28" rx="6" fill="#334155" opacity="0.6"/>
+      <text x="220" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">📈 Rank Tracking</text>
+
+      <rect x="300" y="0" width="140" height="28" rx="6" fill="#334155" opacity="0.6"/>
+      <text x="370" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🕷️ Web Crawlers</text>
+
+      <rect x="450" y="0" width="140" height="28" rx="6" fill="#334155" opacity="0.6"/>
+      <text x="520" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">⚡ Performance</text>
+    </g>
+  </g>
+</svg>
